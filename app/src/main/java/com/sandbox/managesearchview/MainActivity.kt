@@ -42,6 +42,7 @@ class MainActivity : AppCompatActivity() {
 
         viewPageAdapter.addFragment(FragmentA(), "Fragment A")
         viewPageAdapter.addFragment(FragmentB(), "Fragment B")
+        viewPageAdapter.addFragment(FragmentC(), "Fragment C")
         viewPager.adapter = viewPageAdapter
         viewPager.currentItem = currentTabIndex
         tabLayout.setupWithViewPager(viewPager)
